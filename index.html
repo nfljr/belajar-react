@@ -22,9 +22,12 @@
 
     <main>
         <section class="hero">
-            <h1>Welcome to my website</h1>
+            <h1 id="title">Welcome to my website</h1>
             <p>i am a frontend developer learning React</p>
             <a href="contact.html" class="btn">Contact Me</a>
+            <br>
+            <button onclick="sayHello()">Click Me</button>
+            <button onclick="changeColor()">Change Background</button>
         </section>
 
         <section>
@@ -40,12 +43,15 @@
 
         <h2>Welcome</h2>
         <p>Welcome to my portfolio website.</p>
-
+        <br>
+        <input type="text" id="nameInput" placeholder="Enter Name">
+        <button onclick="showName()">Submit</button>
         <img src="profil.jpg" width="100">
     </main>
 
     <footer>
         <p>copyright 2026</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
